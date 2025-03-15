@@ -27,7 +27,7 @@ A modern Learning Management System (LMS) built with **React**, **Tailwind CSS**
 
 ---
 
-## 🏗️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
