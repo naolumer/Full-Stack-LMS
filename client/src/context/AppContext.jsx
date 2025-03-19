@@ -17,6 +17,7 @@ export const AppContextProvider = (props)=>{
     const fetchAllCourses = async ()=>{
         setAllCourses(dummyCourses)
     }
+
     // Function to calculate average rating of course
     const calculateRating = (course)=>{
         if (course.courseRatings.length ===0){
@@ -66,7 +67,10 @@ export const AppContextProvider = (props)=>{
         navigate,
         calculateRating,
         isEducator,
-        setIsEducator
+        setIsEducator,
+        calculateChapterTime,
+        calculateCourseDuration,
+        calculateNoOfLectures
 
     }
 
