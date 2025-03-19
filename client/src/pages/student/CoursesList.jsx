@@ -6,6 +6,7 @@ import { useParams } from 'react-router-dom'
 import CourseCard from "../../components/student/CourseCard"
 import { useState } from 'react'
 import { assets } from '../../assets/assets'
+import Footer from '../../components/student/Footer'
 
 
 
@@ -48,6 +49,7 @@ const CoursesList = () => {
             <div className='grid grid-cols-auto  my-16 gap-3 px-2 md:px-0'>
                 {filteredCourse.map((course, index) => <CourseCard key={index} course={course} />)}
             </div>
+            <Footer/>
         </div>
     </>
 );
